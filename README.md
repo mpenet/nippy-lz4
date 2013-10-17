@@ -1,7 +1,7 @@
 # nippy-lz4
 [![Build Status](https://secure.travis-ci.org/mpenet/nippy-lz4.png?branch=master)](http://travis-ci.org/mpenet/nippy-lz4)
 
-Plugable [LZ4](https://github.com/jpountz/lz4-java) compression for Nippy
+Plugable [LZ4](https://github.com/jpountz/lz4-java) compression for [Nippy](https://github.com/ptaoussanis/nippy).
 
 ## Documentation
 
