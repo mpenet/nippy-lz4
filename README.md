@@ -5,8 +5,7 @@ Plugable [LZ4](https://github.com/jpountz/lz4-java) compression for [Nippy](http
 
 ## Documentation
 
-
-It's quite straightforward, add `qbits.nippy-lz4` to your dependencies,
+It's quite straightforward, [add nippy-lz4 to your dependencies](#installation),
 then import `qbits.nippy-lz4` namespace and pass the compressor you want
 to use to nippy.
 
