@@ -12,3 +12,8 @@
   (is (= test-data (thaw (freeze test-data
                                  {:compressor lz4-compressor})
                          {:compressor lz4-compressor}))))
+
+(deftest test-compress-hc
+  (is (= test-data (thaw (freeze test-data
+                                 {:compressor lz4hc-compressor})
+                         {:compressor lz4hc-compressor}))))
