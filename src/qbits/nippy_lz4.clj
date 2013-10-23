@@ -34,8 +34,8 @@
 
 (def lz4-compressor "Default net.jpountz.lz4 compressor."
   (->Compressor (.fastCompressor LZ4-factory)
-                   (.fastDecompressor LZ4-factory)))
+                (.fastDecompressor LZ4-factory)))
 
 (def lz4hc-compressor "High compression net.jpountz.lz4 compressor."
   (->Compressor (.highCompressor LZ4-factory)
-                   (.fastDecompressor LZ4-factory)))
+                (.fastDecompressor LZ4-factory)))
